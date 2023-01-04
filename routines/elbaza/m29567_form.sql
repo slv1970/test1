@@ -3,9 +3,7 @@ create or replace function elbaza.m29567_form(_value jsonb, _name_mod text) retu
 as
 $$
 declare
-
 	_pdb_userid integer	= pdb2_current_userid();
-	_include text	 	= pdb2_event_include( _name_mod );
 	_event text 		= pdb2_event_name( _name_mod );
 	_b_submit int 		= pdb2_val_include_text( _name_mod, 'b_submit', '{value}' );  	-- id кнопки
 	_MOD_TABLE text 	= 'p27472_table';  												-- таблица, с которой работаем
