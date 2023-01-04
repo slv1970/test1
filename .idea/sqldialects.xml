@@ -3,8 +3,10 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/aa.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/routines/elbaza/__t20455_iu_bef.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/routines/elbaza/click.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/routines/elbaza/load_users.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/routines/elbaza/m29567_form.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/routines/elbaza/m30305_form.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/routines/elbaza/p17430_tree.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/routines/elbaza/p20455_tab.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/routines/elbaza/p27468_filter_data.sql" dialect="PostgreSQL" />

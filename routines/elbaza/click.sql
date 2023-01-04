@@ -2,16 +2,13 @@ create or replace function elbaza.click(_value jsonb, _name_mod text) returns js
     language plpgsql
 as
 $$
-declare 
-
---	объявляем переменные
+declare
+    --	объявляем переменные
 	_idkart integer		= pdb_val_api_text(_value, '{get,short}');
 	_post jsonb			= pdb_val_api(_value, null);
 	_utm text;
-
 begin
-
---	получаем данные из GET
+    --	получаем данные из GET
 	select property_data ->> 'utm_result'
 	into _utm
 	from t19391
